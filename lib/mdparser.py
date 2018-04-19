@@ -1,6 +1,7 @@
 import textwrap
 import mistune
 
+
 def parse(markdown):
     return mistune.markdown(markdown, renderer=ConfluenceRenderer())
 
